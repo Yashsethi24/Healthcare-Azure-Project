@@ -1,0 +1,11 @@
+﻿database,datasource,tablename,loadtype,watermark,is_active,targetpath
+trendytech-hospital-a,hos-a,dbo.encounters,Incremental,ModifiedDate,0,hosa
+trendytech-hospital-a,hos-a,dbo.patients,Incremental,ModifiedDate,0,hosa
+trendytech-hospital-a,hos-a,dbo.transactions,Incremental,ModifiedDate,0,hosa
+trendytech-hospital-a,hos-a,dbo.providers,Full,,0,hosa
+trendytech-hospital-a,hos-a,dbo.departments,Full,,0,hosa
+trendytech-hospital-b,hos-b,dbo.encounters,Incremental,ModifiedDate,0,hosb
+trendytech-hospital-b,hos-b,dbo.patients,Incremental,Updated_Date,1,hosb
+trendytech-hospital-b,hos-b,dbo.transactions,Incremental,ModifiedDate,0,hosb
+trendytech-hospital-b,hos-b,dbo.providers,Full,,0,hosb
+trendytech-hospital-b,hos-b,dbo.departments,Full,,0,hosb
